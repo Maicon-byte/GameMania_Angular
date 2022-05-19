@@ -15,14 +15,20 @@ export class LoginComponent implements OnInit {
   }
 
   userModel = new User()
+  mensagem = ""
 
   receberDados(){
     console.log(this.userModel)
 
     this.loginService.login(this.userModel).subscribe( (response) => {
-      console.log("response:", response)
-    }, (erro) => {
-      console.log(erro)
+      //console.log("response:", response)
+      console.log("O Status Code é: ", response.status)
+
+      this.mensagem = "Bem vindo " + response.body.user.nome
+      console.log(this.mensagem)
+    }, (responseErro) => {
+      console.log("responseErro", responseErro)
+      this.mensagem = responseErro.error
     })
   }
 
