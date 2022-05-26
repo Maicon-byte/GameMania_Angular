@@ -7,9 +7,9 @@
       "id": 1
     },
     {
-      "email": "adriano@gmail.com",
-      "password": "$2a$10$D46aEJ62V2pYY4Gcxmez8Oh5.LuuJb14Bhzmz39/Rekh6rR9Yu12e",
       "nome": "Adriano",
+      "email": "adriano@gmail.com",
+      "password": "senhadoadriano",
       "id": 2
     }
   ]
