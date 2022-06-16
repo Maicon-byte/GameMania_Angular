@@ -11,6 +11,12 @@
       "email": "adriano@gmail.com",
       "password": "senhadoadriano",
       "id": 2
+    },
+    {
+      "email": "joao@email.com",
+      "password": "$2a$10$wPb.cUdtI5KyK1uSKfe1qeNqvrx/xbZzVHZGFSeU2yXEpTT4lBLNO",
+      "nome": "joão",
+      "id": 3
     }
   ]
 }
